@@ -1,0 +1,17 @@
+b79e3d2f56a765c93c21e39761fb7ba9 *DESCRIPTION
+0805a108a4139ba94151d7b2efeafed6 *LICENSE
+0b3256f95f0522c9f9dd826fdbba4805 *NAMESPACE
+91afe1a621bf8836695759fcc22a0ec5 *R/cff2bibentry.R
+4025d14336a4c6f485e3d59759b4ec91 *R/cff2zenodo.R
+224bb23a1ca02bcb2d38d4acd6d3db7e *R/citation2zenodo.R
+6d2951e9009ada99b32803c714a7a466 *R/citation_doi.R
+38282cfbbd09e4d18eadb6c61bcc03a1 *R/package2zenodo.R
+23719d63cc07d1335b6c979548678235 *R/read_cff.R
+d09ab26bf1e922e2fd984c946ef61ad7 *README.md
+d91aaa46f47d9f3a7b69dcb81e9246c3 *inst/CITATION
+32df5d6098813fb3635f57e70478b648 *man/cff2bibentry.Rd
+dbc6e742cd339367169afedc2bf7b3e6 *man/cff2zenodo.Rd
+22e8be852b6c5c8232ef653d98812344 *man/citation2zenodo.Rd
+eb6b0196ff43ac9e43ba0a574f2f635e *man/citation_doi.Rd
+fd8faf140d5c68a65ff0164486903614 *man/package2zenodo.Rd
+f876fdc640f8d4cf8a92913b7f58f7c4 *man/read_cff.Rd
