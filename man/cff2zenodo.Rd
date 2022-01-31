@@ -7,7 +7,11 @@
 cff2zenodo(x)
 }
 \arguments{
-\item{x}{path to citation file or read in citation in citation file format}
+\item{x}{path to citation file or read in citation in citation file format. If a path is provided the .zenodo.json information will be written
+directly to a .zenodo.json file in the corresponding folder. Otherwise the metadata will be just returned by the function.}
+}
+\value{
+The metadata information that should be provided to Zenodo in JSON format.
 }
 \description{
 Converter citation file format to .zenodo.json metadata file for proper
