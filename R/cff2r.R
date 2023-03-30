@@ -9,6 +9,7 @@
 #' @author Waldir Leoncio
 #' @export
 #' @examples
+#' \dontrun{
 #' # Printing converted file onto R session
 #' citation_file <- system.file("CFF-CITATION.cff", package = "citation")
 #' cff2r(citation_file)
@@ -22,6 +23,7 @@
 #'
 #' # Making sure the file is indeed there
 #' cat(readLines(file.path(tempFolder, "converted-desc")), sep="\n")
+#' }
 #' @details
 #' CFF is a standard format for the citation of software proposed by
 #' Stephan Druskat et. al. (see references below). CFF-compliant files are
@@ -63,7 +65,7 @@ cff2r <- function(cffFile = "CITATION.cff", export = FALSE, ...) {
   desc <- desc$set("Title", cff$title)
   desc <- desc$set("Version", cff$version)
   desc <- desc$set("Description", cff$message)
-  desc <- desc$set("Date", cff$date)
+  desc <- desc$set("Date", cff$`date-released`)
   addAuthors(cff$authors, desc)
   suppressMessages(desc$del_author("Jo", "Doe"))
 
@@ -119,8 +121,8 @@ addAuthors <- function(authors, desc) {
     isPerson <- any(grepl("family", names(author)))
     if (isPerson) {
       desc$add_author(
-        author$given,
-        author$family,
+        author$`given-names`,
+        author$`family-names`,
         email = author$email
       )
     } else {
