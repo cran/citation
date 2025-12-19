@@ -1,8 +1,8 @@
-77a95af5a558628584d83eb54c2516db *DESCRIPTION
+42915f53ee4b5182cfba97687f600cb8 *DESCRIPTION
 43d184fd73626bef43eb387727742cb7 *LICENSE
 bce6907015d5666d70a43f6ff7853bf8 *NAMESPACE
-01f3d98896d38b693df6263ead4c5d4f *R/cff2bibentry.R
-6c5777d1b79a7577fefb03089d25992e *R/cff2md.R
+2983d9ceab347391e32ecbd15c94dcc4 *R/cff2bibentry.R
+c8b3709dd49b2ae78b2c618adb714168 *R/cff2md.R
 87a6d4ba432aec8012308d6edff03edf *R/cff2r.R
 4025d14336a4c6f485e3d59759b4ec91 *R/cff2zenodo.R
 eabb4ca92a90c2ec253819c15123eff1 *R/cffReport.R
@@ -10,11 +10,11 @@ eabb4ca92a90c2ec253819c15123eff1 *R/cffReport.R
 224bb23a1ca02bcb2d38d4acd6d3db7e *R/citation2zenodo.R
 ebd7fe7291aac8759262e3c5051897f9 *R/citation_doi.R
 a43645f5c3f4392f7af1f46d1a4f9f5f *R/package2zenodo.R
-77537106241c6187e1422aac7a7bcca1 *R/r2cff.R
+d9825b89af15eee60d2c88d7ee039379 *R/r2cff.R
 842e3d60d6fde33bd43d58f55f8d343b *R/read_cff.R
 591725ea9e9a045d716e6aef012141fa *R/scanRepos.R
-3d7bed4836acd4fc1f10e776a0f1e2fe *README.md
-3a65db68fc0d673c6c28465c1f93134e *build/partial.rdb
+ed64a788519417a79efd6facbfd5c08d *README.md
+76e123f5dcc8dee07678412adc0a2a84 *build/partial.rdb
 78a87d137921513e97f877e14a15a491 *inst/CITATION
 b3be72b5c35b665cc3639d400a4868e3 *inst/extdata/CITATION-skeleton.cff
 32df5d6098813fb3635f57e70478b648 *man/cff2bibentry.Rd
@@ -22,7 +22,7 @@ b3be72b5c35b665cc3639d400a4868e3 *inst/extdata/CITATION-skeleton.cff
 08684ef9a6c48d1ad2d4c90e5b89786c *man/cff2r.Rd
 b3c6c51efb0f308351ce27f0b1bb2abd *man/cff2zenodo.Rd
 8bf140e18d7dcbb6db4ad720f8402cd3 *man/cffReport.Rd
-44383887a0dd445570bf80c8bd71501a *man/citation-package.Rd
+6f64d71cb05e273562f69ea1b98fac2a *man/citation-package.Rd
 22e8be852b6c5c8232ef653d98812344 *man/citation2zenodo.Rd
 eb6b0196ff43ac9e43ba0a574f2f635e *man/citation_doi.Rd
 93fc5ac6d6f8130b02baeb768eb59611 *man/package2zenodo.Rd
@@ -30,5 +30,5 @@ eb6b0196ff43ac9e43ba0a574f2f635e *man/citation_doi.Rd
 f876fdc640f8d4cf8a92913b7f58f7c4 *man/read_cff.Rd
 48908cae2230b209bfa887b88231198d *man/scanRepos.Rd
 00bf79815520673a91e88496d96c9a25 *tests/testthat.R
-752f87afe3f9fa58d4f5542bca5fc574 *tests/testthat/test-cff2r.R
-0daa453df39b51a9fbad1e03f2dc8535 *tests/testthat/test-r2cff.R
+b184cc924f9b250b88276ce7abbe5297 *tests/testthat/test-cff2r.R
+8501e67b6b1599b131e166c67c231738 *tests/testthat/test-r2cff.R
